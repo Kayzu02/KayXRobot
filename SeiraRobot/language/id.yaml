@@ -10,7 +10,7 @@ set_chat_lang: "Bagus, menggunakan Bahasa {} mulai sekarang!"
 # PM Text
 pm_start_text: |
   *ʜᴀɪ​,{}*
-  ✪ sᴀʏᴀ ᴀᴅᴀʟᴀʜ ʀᴏʙᴏᴛ ᴍᴀɴᴀᴊᴇᴍᴇɴ ᴛᴇᴍᴀ ᴀɴɪᴍᴇ  [✨](https://telegra.ph/file/348824c1cb7cfea58405f.jpg)
+  ✪ sᴀʏᴀ ᴀᴅᴀʟᴀʜ ʀᴏʙᴏᴛ ᴍᴀɴᴀᴊᴇᴍᴇɴ ᴛᴇᴍᴀ ᴀɴɪᴍᴇ  [✨](https://telegra.ph/file/6d45496176b3c3f50eae3.jpg)
   ───────────★──────────
   × *ᴀᴋᴛɪꜰ sᴇᴊᴀᴋ​ :* `{}`
   × `{}` *ᴘᴇɴɢɢᴜɴᴀ, ᴅɪ sᴇʟᴜʀᴜʜ​* `{}` *ᴏʙʀᴏʟᴀɴ​.*
@@ -172,7 +172,7 @@ antispam_help: |
 
     Ini juga mengintegrasikan @Spamwatch API untuk menghapus Spammer sebanyak mungkin dari ruang obrolan Anda!
     *Apa itu SpamWatch?*
-    SpamWatch memiliki daftar larangan spambot, troll, spammer bitcoin, dan karakter jahat yang terus diperbarui secara konstan[.](https://telegra.ph/file/f584b643c6f4be0b1de53.jpg)
+    SpamWatch memiliki daftar larangan spambot, troll, spammer bitcoin, dan karakter jahat yang terus diperbarui secara konstan[.](https://telegra.ph/file/6d45496176b3c3f50eae3.jpg)
     Terus membantu melarang spammer dari grup Anda secara otomatis Jadi, Anda tidak perlu khawatir tentang spammer menyerbu grup Anda.
     *Catatan:* Pengguna dapat mengajukan banding atas larangan spamwatch di @SpamwatchSupport
 approve_help: |
