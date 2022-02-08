@@ -23,11 +23,11 @@ from ptbcontrib.postgres_persistence import PostgresPersistence
 StartTime = time.time()
 
 def get_user_list(__init__, key):
-    with open("{}/KayRobot/{}".format(os.getcwd(), __init__), "r") as json_file:
+    with open("{}/SeiraRobot/{}".format(os.getcwd(), __init__), "r") as json_file:
         return json.load(json_file)[key]
 
 # enable logging
-FORMAT = "[KayRobot] %(message)s"
+FORMAT = "[SeiraRobot] %(message)s"
 logging.basicConfig(
     handlers=[logging.FileHandler("log.txt"), logging.StreamHandler()],
     level=logging.INFO,
@@ -40,7 +40,7 @@ logging.getLogger('ptbcontrib.postgres_persistence.postgrespersistence').setLeve
 LOGGER = logging.getLogger('[KayRobot]')
 LOGGER.info("Kay is starting. | An Shiinobu Project Parts. | Licensed under GPLv3.")
 LOGGER.info("Not affiliated to other anime or Villain in any way whatsoever.")
-LOGGER.info("Project maintained by: github.com/Dorimuhai (t.me/xyzsethhh)")
+LOGGER.info("Project maintained by: github.com/Kayzu02 (t.me/Kayzuuuuu)")
 
 # if version < 3.9, stop bot.
 if sys.version_info[0] < 3 or sys.version_info[1] < 9:
