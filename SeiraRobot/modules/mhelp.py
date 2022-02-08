@@ -23,5 +23,5 @@ async def awake(event):
   LUNA += "• /end - **Untuk memberhentikan pemutaran musik/video** \n"
   LUNA += "• /reload - **Untuk memperbarui admin list** \n"
 
-  BUTTON = [[Button.url("☎️ Support", "https://t.me/KayzuSupport"), Button.url("📡 Updates", "https://t.me/kayzuchannel")]]
+  BUTTON = [[Button.url("Bot Music", "https://t.me/MusicKay_Bot"), Button.url("Updates", "https://t.me/kayzuchannel")]]
   await tbot.send_file(event.chat_id, PHOTO, caption=LUNA,  buttons=BUTTON)
