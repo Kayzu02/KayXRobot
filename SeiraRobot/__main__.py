@@ -225,7 +225,7 @@ def start(update: Update, context: CallbackContext):
                         ],
                         [
                             InlineKeyboardButton(
-                                text=gs(chat.id, "add_bot_to_group_button"), url="t.me/KayRobot?startgroup=new"),
+                                text=gs(chat.id, "add_bot_to_group_button"), url="t.me/KayXRobot?startgroup=new"),
                         ]
                     ]
                 ),
@@ -425,7 +425,7 @@ def seira_about_callback(update, context):
                             InlineKeyboardButton(text=gs(chat.id, "inline_button"), switch_inline_query_current_chat=""),
                         ],
                         [
-                            InlineKeyboardButton(text=gs(chat.id, "add_bot_to_group_button"), url="t.me/KayRobot?startgroup=new"),
+                            InlineKeyboardButton(text=gs(chat.id, "add_bot_to_group_button"), url="t.me/KayXRobot?startgroup=new"),
                         ]
                     ]
                 ),
@@ -536,7 +536,7 @@ def Source_about_callback(update, context):
                             InlineKeyboardButton(text=gs(chat.id, "inline_button"), switch_inline_query_current_chat=""),
                         ],
                         [
-                            InlineKeyboardButton(text=gs(chat.id, "add_bot_to_group_button"), url="t.me/KayRobot?startgroup=new"),
+                            InlineKeyboardButton(text=gs(chat.id, "add_bot_to_group_button"), url="t.me/KayXRobot?startgroup=new"),
                         ]
                     ]
                 ),
