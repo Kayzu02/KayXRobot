@@ -10,20 +10,20 @@ set_chat_lang: "Great, using {} Language it is from now on!"
 # PM Text
 pm_start_text: |
   *Hey, {} *
-  ✪ ɪ'ᴍ ᴀɴ ᴀɴɪᴍᴇ-ᴛʜᴇᴍᴇ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʀᴏʙᴏᴛ​ [✨](https://telegra.ph/file/348824c1cb7cfea58405f.jpg)
+  ✪ ɪ'ᴍ ᴀɴ ᴀɴɪᴍᴇ-ᴛʜᴇᴍᴇ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʀᴏʙᴏᴛ​ [⚡](https://telegra.ph/file/348824c1cb7cfea58405f.jpg)
   ────────────★─────────
   × *sᴇʀᴠᴇʀ ᴜᴘᴛɪᴍᴇ​ :* `{}`
   × `{}` *ᴜsᴇʀs, ᴀᴄʀᴏss​* `{}` *ᴄʜᴀᴛs​.*
   ────────────★─────────
   ✪ ʜɪᴛ /help ᴛᴏ sᴇᴇ ᴍʏ ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs​.
-  ✪ ᴍᴀɪɴᴛᴇɴᴀɴᴄᴇ ʙʏ :​ @xyzsethhh
+  ✪ ᴍᴀɪɴᴛᴇɴᴀɴᴄᴇ ʙʏ :​ @Kayzuuuuu
 group_start_text: |
-  *👋🏻 Hi , I'm Seira Robot!*
+  *👋🏻 Hi , I'm Kay Robot!*
   
   *Started active since :* `{}`
 
 pm_about_text: |
-  ✺ Hey Darling I'm *Seira Robot*, a powerful group management bot built to help you manage your group easily. ✺
+  ✺ Hey Darling I'm *Kay Robot*, a powerful group management bot built to help you manage your group easily. ✺
 
   ✪ I can restrict users.
   ✪ I can greet users with customizable welcome messages and even set a group's rules.
@@ -37,7 +37,7 @@ pm_about_text: |
 pm_about_admin_text: |
   *✺ Let's make your group bit effective now ✺*
 
-  Congragulations, Seira Robot now ready to manage your group.
+  Congragulations, Kay Robot now ready to manage your group.
 
   *Admin Tools*
   Basic Admin tools help you to protect and powerup your group.
@@ -52,13 +52,13 @@ pm_about_notes_text: |
   ✪ You can save message/media/audio or anything as notes to get a note simply use # at the beginning of a word
   ✪ You can also set buttons for notes and filters (refer help menu)
 pm_about_support_text: |
-  *✺ Seira Robot support chats ✺*
+  *✺ Kay Robot support chats ✺*
 
-  Join My Support Group/Channel for see or report a problem on Seira.
+  Join My Support Group/Channel for see or report a problem on Kay.
 pm_about_credit_text: |
-  *✺ Credis for Seira ✺*
+  *✺ Credis for Kay ✺*
 
-  Here Developers Making And Give Inspiration For Made The Seira Robot
+  Here Developers Making And Give Inspiration For Made The Kay Robot
 pm_help_text: |
   *✺ Click on the button bellow to get description about specifics command. ✺*
 pm_help_module_text: "Here is the help for the *{}* module :\n\n"
@@ -87,7 +87,7 @@ notes_button: "Notes"
 source_button: "Chat with Owner"
 help_button: "Help"
 back_button: "Go back"
-about_button: "About Seira Robot"
+about_button: "About Kay Robot"
 inline_button: "Try inline!​​"
 
 # MODULES
@@ -235,7 +235,7 @@ blacklist_help: |
 chatbot_help: |
     ──「 Chatbot AI 」──
 
-    Seira AI is the only ai system which can detect & reply upto 200 language's
+    Kay AI is the only ai system which can detect & reply upto 200 language's
 
     ❂ /chatbot [ON/OFF]: Enables and disables AI Chat mode.
     ❂ /chatbot EN : Enables English only chatbot.
@@ -323,7 +323,7 @@ fsub_feds_help: |
 
     *Force Subscribe:*
 
-    Seira can mute members who are not subscribed your channel until they subscribe When enabled I will mute unsubscribed members and show them a unmute button. When they pressed the button I will unmute them
+    Kay can mute members who are not subscribed your channel until they subscribe When enabled I will mute unsubscribed members and show them a unmute button. When they pressed the button I will unmute them
 
     *Setup* *:* *Only creator*
     ❂ Add me in your group as admin
@@ -641,9 +641,9 @@ search_help: |
     ❂ /github <username>*:* Get information about a GitHub user.
     ❂ /country <country name>*:* Gathering info about given country
     ❂ /imdb <Movie name>*:* Get full info about a movie with imdb.com
-    ❂ Seira <query>*:* Seira answers the query
+    ❂ Kay <query>*:* Kay answers the query
 
-    💡 Ex : `Seira where is Japan?`
+    💡 Ex : `Kay where is Japan?`
 stickers_help: |
     ──「 Stickers 」──
 
