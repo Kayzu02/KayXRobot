@@ -23,11 +23,11 @@ from ptbcontrib.postgres_persistence import PostgresPersistence
 StartTime = time.time()
 
 def get_user_list(__init__, key):
-    with open("{}/SeiraRobot/{}".format(os.getcwd(), __init__), "r") as json_file:
+    with open("{}/KayRobot/{}".format(os.getcwd(), __init__), "r") as json_file:
         return json.load(json_file)[key]
 
 # enable logging
-FORMAT = "[SeiraRobot] %(message)s"
+FORMAT = "[KayRobot] %(message)s"
 logging.basicConfig(
     handlers=[logging.FileHandler("log.txt"), logging.StreamHandler()],
     level=logging.INFO,
@@ -37,8 +37,8 @@ logging.basicConfig(
 logging.getLogger("pyrogram").setLevel(logging.INFO)
 logging.getLogger('ptbcontrib.postgres_persistence.postgrespersistence').setLevel(logging.WARNING)
 
-LOGGER = logging.getLogger('[SeiraRobot]')
-LOGGER.info("Seira is starting. | An Shiinobu Project Parts. | Licensed under GPLv3.")
+LOGGER = logging.getLogger('[KayRobot]')
+LOGGER.info("Kay is starting. | An Shiinobu Project Parts. | Licensed under GPLv3.")
 LOGGER.info("Not affiliated to other anime or Villain in any way whatsoever.")
 LOGGER.info("Project maintained by: github.com/Dorimuhai (t.me/xyzsethhh)")
 
@@ -133,7 +133,7 @@ if ENV:
         raise Exception("Your blacklisted chats list does not contain valid integers.")
 
 else:
-    from SeiraRobot.config import Development as Config
+    from KayRobot.config import Development as Config
 
     TOKEN = Config.TOKEN
 
@@ -228,7 +228,7 @@ else:
         sw = None
         LOGGER.warning("Can't connect to SpamWatch!")
 
-from SeiraRobot.modules.sql import SESSION
+from KayRobot.modules.sql import SESSION
 
 defaults = tg.Defaults(run_async=True)
 updater = tg.Updater(TOKEN, workers=WORKERS, use_context=True)
@@ -298,7 +298,7 @@ DEMONS = list(DEMONS)
 TIGERS = list(TIGERS)
 
 # Load at end to ensure all prev variables have been set
-from SeiraRobot.modules.helper_funcs.handlers import (
+from KayRobot.modules.helper_funcs.handlers import (
     CustomCommandHandler,
     CustomMessageHandler,
     CustomRegexHandler,
