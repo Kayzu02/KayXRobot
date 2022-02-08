@@ -133,7 +133,7 @@ if ENV:
         raise Exception("Your blacklisted chats list does not contain valid integers.")
 
 else:
-    from KayRobot.config import Development as Config
+    from SeiraRobot.config import Development as Config
 
     TOKEN = Config.TOKEN
 
@@ -228,7 +228,7 @@ else:
         sw = None
         LOGGER.warning("Can't connect to SpamWatch!")
 
-from KayRobot.modules.sql import SESSION
+from SeiraRobot.modules.sql import SESSION
 
 defaults = tg.Defaults(run_async=True)
 updater = tg.Updater(TOKEN, workers=WORKERS, use_context=True)
@@ -298,7 +298,7 @@ DEMONS = list(DEMONS)
 TIGERS = list(TIGERS)
 
 # Load at end to ensure all prev variables have been set
-from KayRobot.modules.helper_funcs.handlers import (
+from SeiraRobot.modules.helper_funcs.handlers import (
     CustomCommandHandler,
     CustomMessageHandler,
     CustomRegexHandler,
