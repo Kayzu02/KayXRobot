@@ -1,9 +1,9 @@
 <h2 align="center">
-    »»———-【SEIRA ROBOT】-———««
+    »»———-【KAY ROBOT】-———««
 </h2>
 
 <p align="center">
-  <img src="https://telegra.ph/file/a6f1a60ff6d8c22355da5.jpg">
+  <img src="https://telegra.ph/file/6d45496176b3c3f50eae3.jpg">
 </p>
 
 <h3 align="center">
@@ -32,7 +32,7 @@
 <details>
   <summary>DEPLOY TO HEROKU</summary>
     <p align="center">
-      <a href="https://heroku.com/deploy?template=https://github.com/Dorimuhai/SeiraXRobot"> 
+      <a href="https://heroku.com/deploy?template=https://github.com/Kayzu02/KayRobot"> 
         <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-black?style=for-the-badge&logo=heroku" width="220" height="38.45" /> 
       </a>
     </p>
