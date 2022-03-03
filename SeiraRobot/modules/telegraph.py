@@ -11,7 +11,7 @@ from datetime import datetime
 from telegraph import Telegraph, upload_file, exceptions
 
 
-wibu = "KayRobot"
+wibu = "KayXRobot"
 telegraph = Telegraph()
 data = telegraph.create_account(short_name=wibu)
 auth_url = data["auth_url"]
