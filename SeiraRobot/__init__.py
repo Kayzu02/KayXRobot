@@ -27,7 +27,7 @@ def get_user_list(__init__, key):
         return json.load(json_file)[key]
 
 # enable logging
-FORMAT = "[SeiraRobot] %(message)s"
+FORMAT = "[KayXRobot] %(message)s"
 logging.basicConfig(
     handlers=[logging.FileHandler("log.txt"), logging.StreamHandler()],
     level=logging.INFO,
@@ -37,8 +37,8 @@ logging.basicConfig(
 logging.getLogger("pyrogram").setLevel(logging.INFO)
 logging.getLogger('ptbcontrib.postgres_persistence.postgrespersistence').setLevel(logging.WARNING)
 
-LOGGER = logging.getLogger('[KayRobot]')
-LOGGER.info("Kay is starting. | An Shiinobu Project Parts. | Licensed under GPLv3.")
+LOGGER = logging.getLogger('[KayXRobot]')
+LOGGER.info("Kay is starting. | An Kay Project Parts. | Licensed under GPLv3.")
 LOGGER.info("Not affiliated to other anime or Villain in any way whatsoever.")
 LOGGER.info("Project maintained by: github.com/Kayzu02 (t.me/Kayzuuuuu)")
 
