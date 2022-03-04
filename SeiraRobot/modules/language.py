@@ -50,7 +50,7 @@ def set_lang(update: Update, _) -> None:
         [
             InlineKeyboardButton(
                 text="Kay With Love 💜 ",
-                url="https://t.me/KayRobot",
+                url="https://t.me/Kayzuuuuu",
             )
         ]
     )
