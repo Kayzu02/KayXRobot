@@ -10,8 +10,8 @@ set_chat_lang: "Great, using {} Language it is from now on!"
 # PM Text
 pm_start_text: |
   *ʜᴇʟʟᴏ, ɪ'ᴍ ҡᴀʏ ʀσʙσт
-   ɪ'ᴍ ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ! ʜɪᴛ /help
-   ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : @Kayzuuuuu
+  ɪ'ᴍ ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ! ʜɪᴛ /help
+  ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : @Kayzuuuuu
 group_start_text: |
   *👋🏻 ʜᴇʟʟᴏ, ɪ'ᴍ ҡᴀʏ ʀσʙσт!*
   
@@ -76,13 +76,14 @@ group_settings_button: "Settings"
 
 # PM Button
 add_bot_to_group_button: "✚ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ​ ✚"
-support_chat_link_button: "Support"
-updates_channel_link_button: "Update"
-notes_button: "Notes"
-source_button: "Chat Owner"
+support_chat_link_button: "ꜱᴜᴘᴘᴏʀᴛ​"
+updates_channel_link_button: "ᴜᴘᴅᴀᴛᴇ​"
+notes_button: "ɴᴏᴛᴇ​ ꜱ"
+source_button: "ᴄʜᴀᴛ ᴏᴡɴᴇʀ​"
 help_button: "ʜᴇʟᴘ​"
-back_button: "Go back"
+back_button: "ʙᴀᴄᴋ​"
 about_button: "ᴀʙᴏᴜᴛ​"
+inline_button: "ᴛʀʏ ɪɴʟɪɴᴇ​"
 
 # MODULES
 admin_help: |
