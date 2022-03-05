@@ -75,14 +75,14 @@ group_settings_text: "Click here to get this chat's settings, as well as yours."
 group_settings_button: "Settings"
 
 # PM Button
-add_bot_to_group_button: "Add Me To Your Group"
+add_bot_to_group_button: "✚ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ​ ✚"
 support_chat_link_button: "Support"
 updates_channel_link_button: "Update"
 notes_button: "Notes"
 source_button: "Chat Owner"
-help_button: "Help"
+help_button: "ʜᴇʟᴘ​"
 back_button: "Go back"
-about_button: "About"
+about_button: "ᴀʙᴏᴜᴛ​"
 
 # MODULES
 admin_help: |
