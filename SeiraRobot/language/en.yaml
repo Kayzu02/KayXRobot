@@ -9,12 +9,11 @@ set_chat_lang: "Great, using {} Language it is from now on!"
 
 # PM Text
 pm_start_text: |
-  *Hey, {} *
-   ɪ'ᴍ ᴀɴ ᴀɴɪᴍᴇ-ᴛʜᴇᴍᴇ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʀᴏʙᴏᴛ​ 
-   ʜɪᴛ /help ᴛᴏ sᴇᴇ ᴍʏ ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs​.
-   ᴍᴀɪɴᴛᴇɴᴀɴᴄᴇ ʙʏ :​ @Kayzuuuuu
+  *ʜᴇʟʟᴏ, ɪ'ᴍ ҡᴀʏ ʀσʙσт
+ɪ'ᴍ ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ! ʜɪᴛ /help
+ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : @Kayzuuuuu
 group_start_text: |
-  *👋🏻 Hi , I'm Kay Robot!*
+  *👋🏻 ʜᴇʟʟᴏ, ɪ'ᴍ ҡᴀʏ ʀσʙσт!*
   
   *Started active since :* `{}`
 
