@@ -220,7 +220,9 @@ def start(update: Update, context: CallbackContext):
                                 text=gs(chat.id, "add_bot_to_group_button"), url="t.me/KayXRobot?startgroup=new"),
                         ],
                         [
-                            InlineKeyboardButton(text=gs(chat.id, "help_button"), callback_data="help_back"),   
+                            InlineKeyboardButton(text=gs(chat.id, "help_button"), callback_data="help_back"),
+                        ],
+                        [
                             InlineKeyboardButton(text=gs(chat.id, "about_button"), callback_data="seira_"),
                         ],
                     ]
