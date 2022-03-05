@@ -217,8 +217,6 @@ def start(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(text=gs(chat.id, "about_button"), callback_data="seira_"),
-                        ],
-                        [
                             InlineKeyboardButton(text=gs(chat.id, "help_button"), callback_data="help_back"),
                         ],
                         [   
