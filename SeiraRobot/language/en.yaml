@@ -10,8 +10,8 @@ set_chat_lang: "Great, using {} Language it is from now on!"
 # PM Text
 pm_start_text: |
   *ʜᴇʟʟᴏ, ɪ'ᴍ ҡᴀʏ ʀσʙσт
-ɪ'ᴍ ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ! ʜɪᴛ /help
-ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ :* @Kayzuuuuu
+`ɪ'ᴍ ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ!` ʜɪᴛ /help
+ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : @Kayzuuuuu
 group_start_text: |
   *👋🏻 ʜᴇʟʟᴏ, ɪ'ᴍ ҡᴀʏ ʀσʙσт!*
   
