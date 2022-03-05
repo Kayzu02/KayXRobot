@@ -215,17 +215,17 @@ def start(update: Update, context: CallbackContext):
                     sql.num_chats()),                        
                 reply_markup=InlineKeyboardMarkup(
                     [
-                        [   
-                            InlineKeyboardButton(
-                                text=gs(chat.id, "add_bot_to_group_button"), url="t.me/KayXRobot?startgroup=new"),
-                        ],
-                        [   
-                            InlineKeyboardButton(text=gs(chat.id, "inline_button"), switch_inline_query_current_chat=""),
+                        [
                             InlineKeyboardButton(text=gs(chat.id, "about_button"), callback_data="seira_"),
                         ],
-                        [   
+                        [
                             InlineKeyboardButton(text=gs(chat.id, "help_button"), callback_data="help_back"),
+                            InlineKeyboardButton(text=gs(chat.id, "inline_button"), switch_inline_query_current_chat=""),
                         ],
+                        [
+                            InlineKeyboardButton(
+                                text=gs(chat.id, "add_bot_to_group_button"), url="t.me/KayXRobot?startgroup=new"),
+                        ]
                     ]
                 ),
                 parse_mode=ParseMode.MARKDOWN,
@@ -484,7 +484,7 @@ def seira_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="Kay", url="https://github.com/xxxxx"),
+                        InlineKeyboardButton(text="ҡᴀʏ-ᴇx", url="https://github.com/Kayzyu"),
                     ],
                     [
                         InlineKeyboardButton(text="Paul Larsen", url="https://github.com/PaulSonOfLars"),
@@ -823,7 +823,7 @@ def main():
         try:
             dispatcher.bot.sendMessage(
                 f"@{SUPPORT_CHAT}", 
-                f"""**Yes Master, Kay Activated ⚡**""",
+                f"""**Yes Master, Kay Activated 💜**""",
                 parse_mode=ParseMode.MARKDOWN
             )
         except Unauthorized:
