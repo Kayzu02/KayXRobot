@@ -388,12 +388,12 @@ def seira_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="Admins", callback_data="seira_admin"),
+                        InlineKeyboardButton(text=" ᴀᴅᴍɪɴꜱ​", callback_data="seira_admin"),
                         InlineKeyboardButton(text=gs(chat.id, "notes_button"), callback_data="seira_notes"),
                     ],
                     [
                         InlineKeyboardButton(text=gs(chat.id, "support_chat_link_button"), callback_data="seira_support"),
-                        InlineKeyboardButton(text="Credits", callback_data="seira_credit"),
+                        InlineKeyboardButton(text="ᴄʀᴇᴅɪᴛꜱ", callback_data="seira_credit"),
                     ],
                     [
                         InlineKeyboardButton(text=gs(chat.id, "source_button"), url="https://t.me/Kayzuuuuu"),
