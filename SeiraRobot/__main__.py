@@ -83,7 +83,6 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-SEIRA_IMG = "https://telegra.ph/file/6d45496176b3c3f50eae3.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
  You can support the project by contacting @Kayzuuuuu \
@@ -485,7 +484,7 @@ def seira_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="Kay", url="https://github.com/Kayzu02"),
+                        InlineKeyboardButton(text="Kay", url="https://github.com/xxxxx"),
                     ],
                     [
                         InlineKeyboardButton(text="Paul Larsen", url="https://github.com/PaulSonOfLars"),
@@ -775,7 +774,7 @@ def donate(update: Update, context: CallbackContext):
             DONATE_STRING, parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True
         )
 
-        if OWNER_ID != 945137470:
+        if OWNER_ID != 1904791338:
             update.effective_message.reply_text(
                 "I'm free for everyone ❤️ If you wanna make me smile, just join"
                 "[My Channel]({})".format(DONATION_LINK),
