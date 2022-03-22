@@ -26,10 +26,10 @@ async def carbon_func(_, message):
 
 
 @pbot.on_message(filters.command("bot"))
-async def repo(_, message):
+async def bot(_, message):
     await message.reply_photo(
         photo=MEMEK,
-        caption=f"""✨ **Hey I'm Kay Robot** ✨ 
+        caption=f"""✨ **Hey I'm ҡᴧʏ ✗ ʙσᴛ** ✨ 
 
 **Owner Bot : [ҡᴀʏ-ᴇx](https://t.me/Kayzuuuuu)**
 **Python Version :** `{y()}`
