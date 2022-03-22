@@ -205,10 +205,10 @@ def start(update: Update, context: CallbackContext):
                 IMPORTED["rules"].send_rules(update, args[0], from_pm=True)
 
         else:
-            OWNER_ID = update.effective_user.OWNER_ID
+            first_name = update.effective_user.first_name
             update.effective_message.reply_text(
                 text=gs(chat.id, "pm_start_text").format(
-                    escape_markdown(OWNER_ID),
+                    escape_markdown(first_name),
                     escape_markdown(uptime),
                     sql.num_users(),
                     sql.num_chats()),                        
