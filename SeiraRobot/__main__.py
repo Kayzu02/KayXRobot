@@ -216,7 +216,7 @@ def start(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                text=gs(chat.id, "add_bot_to_group_button"), url="t.me/KayXRobot?startgroup=new"),
+                                text=gs(chat.id, "add_bot_to_group_button"), url="t.me/KayXMusicBot?startgroup=new"),
                         ],
                         [
                             InlineKeyboardButton(text=gs(chat.id, "help_button"), callback_data="help_back"),
@@ -399,7 +399,7 @@ def seira_about_callback(update, context):
                         InlineKeyboardButton(text=gs(chat.id, "source_button"), url="https://t.me/Kayzuuuuu"),
                     ],
                     [
-                    InlineKeyboardButton(text=gs(chat.id, "back_button"), callback_data="seira_back"),
+                        InlineKeyboardButton(text=gs(chat.id, "back_button"), callback_data="seira_back"),
                     ]
                 ]
             ),
@@ -416,14 +416,14 @@ def seira_about_callback(update, context):
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton(text=gs(chat.id, "about_button"), callback_data="seira_"),
+                            InlineKeyboardButton(text=gs(chat.id, "add_bot_to_group_button"), url="t.me/KayXMusicBot?startgroup=new"),
                         ],
                         [
                             InlineKeyboardButton(text=gs(chat.id, "help_button"), callback_data="help_back"),
                             InlineKeyboardButton(text=gs(chat.id, "inline_button"), switch_inline_query_current_chat=""),
                         ],
                         [
-                            InlineKeyboardButton(text=gs(chat.id, "add_bot_to_group_button"), url="t.me/KayXRobot?startgroup=new"),
+                            InlineKeyboardButton(text=gs(chat.id, "about_button"), callback_data="seira_"),
                         ]
                     ]
                 ),
@@ -527,14 +527,14 @@ def Source_about_callback(update, context):
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton(text=gs(chat.id, "about_button"), callback_data="seira_"),
+                            InlineKeyboardButton(text=gs(chat.id, "add_bot_to_group_button"), url="t.me/KayXMusicBot?startgroup=new"),
                         ],
                         [
                             InlineKeyboardButton(text=gs(chat.id, "help_button"), callback_data="help_back"),
                             InlineKeyboardButton(text=gs(chat.id, "inline_button"), switch_inline_query_current_chat=""),
                         ],
                         [
-                            InlineKeyboardButton(text=gs(chat.id, "add_bot_to_group_button"), url="t.me/KayXRobot?startgroup=new"),
+                            InlineKeyboardButton(text=gs(chat.id, "about_button"), callback_data="seira_"),
                         ]
                     ]
                 ),
@@ -822,7 +822,7 @@ def main():
         try:
             dispatcher.bot.sendMessage(
                 f"@{SUPPORT_CHAT}", 
-                f"""**Yes Master, Kay Activated 💜**""",
+                f"""**Yes Master, ҡᴧʏ ✗ ʙσᴛ Activated ⚡**""",
                 parse_mode=ParseMode.MARKDOWN
             )
         except Unauthorized:
